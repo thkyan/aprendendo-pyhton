@@ -1,6 +1,11 @@
-numero = int(input('Digite um numero por favor:'))
+numero = input('Digite um numero por favor:')
 
-if numero%2==0 :
-    print('seu numero é par!')
-else :
-    print('seu numero é impar!')
+if numero.isdigit():
+    numero=int(numero)
+    if numero%2==0:
+        print(f'{numero} é numero par.')
+    else:
+        print(f'{numero} é numero impar.')
+else:
+    print('digite um numero inteiro...')
+
