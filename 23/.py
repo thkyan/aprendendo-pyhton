@@ -51,9 +51,11 @@ import sys
 # for v in g:
 #     print(v)
 
-lista = [x for x in range(10000)]
-print(type(lista))
-lista2 =(x for x in range(10000))
-print(type(lista))
-print(sys.getsizeof(lista))
-print(sys.getsizeof(lista2))
+# lista = [x for x in range(1000)]
+# print(type(lista))
+# lista2 =(x for x in range(1000))
+# print(type(lista))
+# print(sys.getsizeof(lista))
+# print(sys.getsizeof(lista2))
+
+#########################################################
