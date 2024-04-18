@@ -31,5 +31,29 @@
 # ]
 
 # d1 = {x:y for x, y in enumerate(range(5))}
-d1 = {f'chave_{x}': x**2 for x in range(5)}
-print(d1)
+# d1 = {f'chave_{x}': x**2 for x in range(5)}
+# print(d1)
+
+
+#####################################################
+import time
+import sys
+
+
+# def gera():
+
+#     for n in range (100):
+#         yield n 
+#         time.sleep(0.1)
+  
+
+# g = gera()
+# for v in g:
+#     print(v)
+
+lista = [x for x in range(10000)]
+print(type(lista))
+lista2 =(x for x in range(10000))
+print(type(lista))
+print(sys.getsizeof(lista))
+print(sys.getsizeof(lista2))
